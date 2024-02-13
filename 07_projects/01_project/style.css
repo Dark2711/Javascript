@@ -1,0 +1,43 @@
+html {
+    margin: 0;
+  }
+  
+  span {
+    display: block;
+  }
+  .canvas {
+    margin: 100px auto 100px;
+    width: 80%;
+    text-align: center;
+  }
+  
+  .button {
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    display: inline-block;
+  }
+  
+  h1{
+    color: black;
+  }
+  #red {
+    background: #e40303;
+  }
+  
+  #orange {
+    background: #ff8c00;
+  }
+  #green {
+    background: #008026;
+  }
+  #yellow {
+    background: #ffed00;
+  }
+  #purple {
+    background: #732982;
+  }
+  #blue {
+    background: #24408e;
+  }
+  
