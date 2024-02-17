@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async JavaScript</title>
+</head>
+
+<body>
+    <h1>Hello Bhai</h1>
+    <button id="start">Strat</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    let hi;
+    const sayHi = function () {
+        console.log("Prince", Date.now);
+    }
+    // const hi = setInterval(sayHi, 1*1000,"Hi")
+    const startInterval =  document.querySelector('#start').addEventListener('click', function(){
+        hi = setInterval(sayHi, 1*1000,)
+    })
+    const stopInterval = document.querySelector('#stop').addEventListener('click',function(){
+        clearInterval(hi)
+    })
+    
+</script>
+
+</html>
